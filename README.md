@@ -1,20 +1,19 @@
 # PythonScript
-Script for parsing nmap gnmap output to csv format
+Script for parsing nmap Gnmap output to csv format
 
 This script is originate by Vinesh
 
-How to use ? (NOTE: Make sure gnmap file is in same location of Gnamp-to-CSV.py)
-Normal usage for display result 
+How to use ? (NOTE: Make sure Gnmap file is in same location of Gnamp-to-CSV.py)
 C:\Python27\python.exe "C:/Vinesh/Gnamp-to-CSV.py"
-Input File Name of gnmap file :
+Input File Name of Gnmap file :
 Inputfilegnamp
-Output CSV File Name :
+Output File Name :
 outputfile
-CSV File generation has been completed
+CSV File generation has been completed.
 
 Process finished with exit code 0
 
-CSV Output File
+Sample CSV Output File
 
 PORT	status	Protocol	service
 IP Address			
