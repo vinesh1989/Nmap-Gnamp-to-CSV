@@ -22,9 +22,9 @@ def nmaptocsv(CSVname,Outputfile):
 print "Author Name: Vinesh Redkar "
 print "version 1.0 "
 print "Convert Nmap Gnamp to CSV "
-InputLocation = raw_input("Input File Name of gnmap file :\n")
-Outputfile = raw_input("Output CSV File Name :\n")
+InputLocation = raw_input("Input File Name of Gnmap file :\n")
+Outputfile = raw_input("Output File Name :\n")
 os.system('type %s.gnmap | find "open" >%s.txt' %(InputLocation,Outputfile))
 CSVname = os.path.join(Outputfile+".csv")
 nmaptocsv(CSVname,Outputfile)
-print "CSV File generation has been completed"
+print "CSV File generation has been completed."
